@@ -2,17 +2,35 @@ const sum = function(a, b){
     return a + b;
 };
 
-const subtract = null;
+const subtract = function(number1, number2){
+    return number1 - number2;
+};
 
-const multiply = null;
+const multiply = function(number1, number2){
+    return number1 * number2;
+};
 
-const divide = null;
+const divide = function(number1, number2){
+    return number1 / number2;
+};
 
-const modulus = null;
+const modulus = function(number1, number2){
+    return number1 % number2;
+};
 
-const even = null;
+const even = function(number){
+    if (number % 2 === 0){
+        return true;
+    }
+    return false;
+};
 
-const odd = null;
+const odd = function(number){
+    if(number % 2 != 0){
+        return true;
+    }
+    return false;
+};
 
 module.exports = { 
     sum, 
